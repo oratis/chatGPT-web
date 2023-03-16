@@ -34,7 +34,7 @@ const handleOk = () => {
 
       <a-form :model="setting">
         <a-form-item label="API_KEY">
-          <a-input v-model:value="setting.app_key" placeholder="请输入API_KEY，以sk-开头的字符串" />
+          <a-input v-model:value="setting.app_key" placeholder="可替换为你的API_KEY，注意此举会替换本应用提供的KEY" />
         </a-form-item>
         <a-form-item label="连续对话">
           <a-switch v-model:checked="setting.continuously" checked-children="开" un-checked-children="关" />
