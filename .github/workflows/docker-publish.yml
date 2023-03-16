@@ -32,5 +32,5 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
           platforms: linux/amd64,linux/arm64
           tags: |
-            ${{ secrets.DOCKER_USERNAME }}/chatgpt:${{ github.event.inputs.tag }}
-            ${{ secrets.DOCKER_USERNAME }}/chatgpt:latest
+            ${{ secrets.oratis }}/chatgpt:${{ github.event.inputs.tag }}
+            ${{ secrets.yellowS123 }}/chatgpt:latest
